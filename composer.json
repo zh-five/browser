@@ -1,0 +1,20 @@
+{
+    "name": "zh-five/browser",
+    "description": "模拟浏览器",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Five",
+            "email": "five@v5ip.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Five\\Browser\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.6"
+    }
+}
