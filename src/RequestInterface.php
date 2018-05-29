@@ -8,7 +8,7 @@
 
 namespace Five\Browser;
 
-interface RequstInterface{
+interface RequestInterface{
     
     public function __construct($cookie_file = '/tmp/brower.cookie', $client_ip = '');
     
